@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { NewsAPIService } from "@/Noticias/newsapi/NewsAPIService";
-import { SentimentAnalyzer } from "@/TransformerIA/AnalisisNoticias/SentimentAnalyzer";
+import { NewsAPIService } from "@/News/Newsapi/NewsAPIService";
+import { SentimentAnalyzer } from "@/Transformer/News-Analysis/SentimentAnalyzer";
 import OpenAI from "openai";
 
 const newsService = new NewsAPIService();

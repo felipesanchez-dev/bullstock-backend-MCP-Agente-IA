@@ -1,5 +1,5 @@
-import { NewsAPIService } from "@/Noticias/newsapi/NewsAPIService";
-import { SentimentAnalyzer } from "@/TransformerIA/AnalisisNoticias/SentimentAnalyzer";
+import { NewsAPIService } from "@/News/Newsapi/NewsAPIService";
+import { SentimentAnalyzer } from "@/Transformer/News-Analysis/SentimentAnalyzer";
 
 export class NewsSentimentAgent {
   private newsService = new NewsAPIService();
