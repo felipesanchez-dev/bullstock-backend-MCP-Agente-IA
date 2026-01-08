@@ -16,7 +16,7 @@ export class NewsAPIService {
           sortBy: "publishedAt",
           from,
           to,
-          pageSize: 100, // Aumentar el número de artículos para más márgenes
+          pageSize: 10, // Aumentar el número de artículos para más márgenes
           apiKey: NEWS_API_KEY,
         },
       });
@@ -49,7 +49,7 @@ export class NewsAPIService {
           sortBy: "publishedAt",
           from,
           to,
-          pageSize: 100, // Aumentar el número de artículos para más márgenes
+          pageSize: 10, // Aumentar el número de artículos para más márgenes
           apiKey: NEWS_API_KEY,
         },
       });
@@ -73,7 +73,7 @@ export class NewsAPIService {
           sortBy: "publishedAt",
           from,
           to,
-          pageSize: 100, // Aumentar el número de artículos para más márgenes
+          pageSize: 10, // Aumentar el número de artículos para más márgenes
           apiKey: NEWS_API_KEY,
         },
       });
